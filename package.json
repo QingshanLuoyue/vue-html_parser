@@ -1,0 +1,24 @@
+{
+  "name": "vue-html_parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ast": "NODE_ENV=production babel-node ./example/index.js"
+  },
+  "author": "jolin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "he": "^1.2.0"
+  }
+}
