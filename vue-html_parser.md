@@ -1,8 +1,4 @@
-<!-- # 深入浅出 Vue.js 第九章---学习笔记 -->
-谢运明 electron
-李豪 跨平台uni-app，各平台差异
-陈思聪 webrtc/基础
-赵伟 typescript + vue
+# 深入浅出 Vue.js 第九章---学习笔记
 
 本文结合 Vue 源码进行学习<br>
 学习时，根据 github 上 Vue 项目的 package.json 文件，可知版本为 2.6.10
@@ -64,6 +60,7 @@ html 元素
     ]
 }
 ```
+[vue-html_parser 解析器 AST 生成示例](https://github.com/QingshanLuoyue/vue-html_parser)
 
 ## 二、解析器内部运行的原理
 Vue 内部有多个解析器，看下图 filter 过滤解析器、html 解析器、text 文本解析器
